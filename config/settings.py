@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# インストールアプリに追加
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'markdown',
 ]
 
 MIDDLEWARE = [
@@ -103,9 +105,12 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# 日本語に変更
+LANGUAGE_CODE = 'ja'
+# LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# 日本時間に変更
+TIME_ZONE = 'Asia/Tokyo'
 
 USE_I18N = True
 
