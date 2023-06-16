@@ -4,8 +4,6 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /code
 
 RUN pip install --upgrade pip
-RUN pip install Django
-RUN pip install django-mdeditor
 
 # 依存パッケージをrequirements.txtに記述
 ADD requirements.txt /code/

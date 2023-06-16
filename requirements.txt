@@ -1,3 +1,5 @@
 #一括インストールしたいPythonパッケージをまとめたリスト 
 Django
-psycopg2
+
+# Markdownエディタ本体パッケージ
+django-mdeditor
