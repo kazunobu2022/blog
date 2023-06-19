@@ -1,5 +1,4 @@
 #一括インストールしたいPythonパッケージをまとめたリスト 
 Django
-
 # Markdownエディタ本体パッケージ
 django-mdeditor
